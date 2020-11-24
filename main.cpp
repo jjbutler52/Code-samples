@@ -21,6 +21,9 @@ void studyGuideMT2();
 void copyConstructor();
 void tabularFormatting();
 void stringStream();
+void backwardsToken();
+void stringFunctions();
+void outStreamFile();
 
 int main() {
 
@@ -40,6 +43,9 @@ int main() {
 	//arrayFunction();
 	//studyGuideMT2();
 	//copyConstructor();
-	tabularFormatting();
-	stringStream();
+	//tabularFormatting();
+	//stringStream();
+	//backwardsToken();
+	//stringFunctions();
+	outStreamFile();
 }
