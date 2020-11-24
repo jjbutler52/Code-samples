@@ -1,0 +1,5 @@
+*.pdb
+*.idb
+*.obj
+*.exe.recipe
+*.log
