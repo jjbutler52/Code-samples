@@ -24,6 +24,8 @@ void stringStream();
 void backwardsToken();
 void stringFunctions();
 void outStreamFile();
+void stringStream2();
+void stringParse();
 
 int main() {
 
@@ -42,10 +44,12 @@ int main() {
 	//dynamicArrays2D();
 	//arrayFunction();
 	//studyGuideMT2();
-	//copyConstructor();
+	copyConstructor();
 	//tabularFormatting();
 	//stringStream();
 	//backwardsToken();
 	//stringFunctions();
-	outStreamFile();
+	//outStreamFile();
+	//stringStream2();
+	//stringParse();
 }
