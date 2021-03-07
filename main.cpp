@@ -1,5 +1,6 @@
 # include<iostream>
 # include <climits>
+#include <fstream>
 using namespace std;
 
 void dataTypeLimit();
@@ -26,8 +27,14 @@ void stringFunctions();
 void outStreamFile();
 void stringStream2();
 void stringParse();
+void creadWorkArray();
+void decToBin();
+void vectorString();
+void vectorToFunction();
+void study1();
+void readFile(std::string fileName);
 
-int main() {
+int main(int argc, char const* argv[]) {
 
 	//dataTypeLimit();
 	// bitWise();
@@ -44,7 +51,7 @@ int main() {
 	//dynamicArrays2D();
 	//arrayFunction();
 	//studyGuideMT2();
-	copyConstructor();
+	//copyConstructor();
 	//tabularFormatting();
 	//stringStream();
 	//backwardsToken();
@@ -52,4 +59,10 @@ int main() {
 	//outStreamFile();
 	//stringStream2();
 	//stringParse();
+	//creadWorkArray();
+	//decToBin();
+	//vectorString();
+	//vectorToFunction();
+	//study1();
+	readFile("four-by-four.in");
 }

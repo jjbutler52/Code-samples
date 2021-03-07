@@ -17,7 +17,7 @@ void stringFunctions() {
 
     str2 = str2 + '!';
     cout << str2 << endl;
-    str2 = str2 + '!' + " " + "Is thsat so?";
+    str2 = str2 + '!' + " " + "Is that so?";
     cout << str2 << endl;
 
 }
